@@ -1,0 +1,217 @@
+/**
+ * LINEMAG Documentation
+**/
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/Montserrat-regular/Montserrat-regular.eot');
+    src: url('../fonts/Montserrat-regular/Montserrat-regular.eot?#iefix') format('embedded-opentype'),
+    local('Montserrat-Regular'),
+    local('Montserrat-regular'),
+    url('../fonts/Montserrat-regular/Montserrat-regular.woff2') format('woff2'),
+    url('../fonts/Montserrat-regular/Montserrat-regular.woff') format('woff'),
+    url('../fonts/Montserrat-regular/Montserrat-regular.ttf') format('truetype'),
+    url('../fonts/Montserrat-regular/Montserrat-regular.svg#Montserrat') format('svg');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/Montserrat-700/Montserrat-700.eot');
+    src: url('../fonts/Montserrat-700/Montserrat-700.eot?#iefix') format('embedded-opentype'),
+    local('Montserrat-Bold'),
+    local('Montserrat-700'),
+    url('../fonts/Montserrat-700/Montserrat-700.woff2') format('woff2'),
+    url('../fonts/Montserrat-700/Montserrat-700.woff') format('woff'),
+    url('../fonts/Montserrat-700/Montserrat-700.ttf') format('truetype'),
+    url('../fonts/Montserrat-700/Montserrat-700.svg#Montserrat') format('svg');
+}
+
+body {
+    color: #111;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #1e79a7;
+}
+
+p {
+    color: #333;
+    margin: 15px 0;
+}
+
+.tech {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+img {
+    max-width: 750px;
+    height: auto;
+    margin: 30px 0;
+}
+
+.tech li {
+    margin-bottom: 3px;
+}
+
+.main {
+    position: absolute;
+    right: 50px;
+    left: 260px;
+    min-height: 100%;
+    height: auto;
+}
+
+.thankyou {
+    padding-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    float: right;
+}
+
+.star {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.msg {
+    padding: 18px;
+    margin: 18px 0;
+    background: #ffffe0;
+    border: 1px solid #e6db55;
+}
+
+#nav {
+    padding-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+code {
+    background-color: #b38657;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+/* -- Side Menu
+--------------------------------------- */
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    min-height: 100%;
+    background: #26282A;
+    color: #8C919A;
+    width: 220px;
+}
+
+aside a {
+    padding: 10px 16px 10px 5px;
+    display: block;
+    font-size: 11px;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #eee;
+    outline: none !important;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+aside li a:hover, aside li a:focus, aside li.current a {
+    color: #F7CA18;
+}
+
+aside li {
+    text-align: left;
+    line-height: 1;
+    border-bottom: 1px dashed #2F3133;
+}
+
+pre {
+    font-style: oblique;
+    background-color: #FFFFDC;
+    padding: 30px;
+    line-height: 1.2;
+}
+
+/* -- Section
+--------------------------------------- */
+section {
+    margin-bottom: 45px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    line-height: 1.2;
+}
+
+section h1 {
+    padding-top: 100px;
+}
+
+section h1 + h2 {
+    padding-top: 0;
+}
+
+section h2 {
+    padding-top: 50px;
+    padding-bottom: 18px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #333;
+    text-transform: capitalize;
+}
+
+section h3 {
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+section .block {
+    max-width: 760px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    line-height: 22px;
+    border-bottom: 1px solid #ddd;
+}
+
+section .block:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+section .note {
+    margin: 24px 0 0 0;
+}
+
+section .note p {
+    color: #777 !important;
+}
+
+section .block li {
+    margin-bottom: 15px;
+}
+
+.copy {
+    margin-bottom: 30px;
+}
+
+ul, ol {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

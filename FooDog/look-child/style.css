@@ -1,0 +1,17 @@
+/*
+Theme Name:     look child
+Description:    Make your modifications to Look in this child theme.
+Template:      	look
+Theme URI: 		http://demo.themeruby.com/look
+Author: 		Theme-Ruby
+Version:        1.0
+Author URI: 	https://themeforest.net/user/Theme-Ruby
+Tags:           custom-background, custom-menu, editor-style, featured-images, theme-options, custom-colors, translation-ready
+License:        license purchased
+License URI:    http://themeforest.net/licenses/standard
+*/
+@import url('../look/style.css');
+
+/* Your CSS code goes here
+-------------------------------------- */
+

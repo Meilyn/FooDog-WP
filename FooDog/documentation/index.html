@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LOOK Documentation and Usage</title>
+<link rel="stylesheet" type="text/css" media="all" href="assets/css/normolize.css" />
+<link rel="stylesheet" type="text/css" media="all" href="assets/css/style.css" />
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,300italic,400italic,600italic,600,700,700italic' rel='stylesheet' type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="assets/js/onepagenav.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('#nav').onePageNav();
+});
+</script>
+</head>
+<body>
+<div class="main">
+
+	<aside>
+		<ol id="nav">
+			<li class="current"><a href="#start">Getting Started</a></li>
+            <li><a href="#install-theme">Install Theme</a></li>
+            <li><a href="#import-demo">Import Demo</a></li>
+            <li><a href="#theme-options">Theme Options</a></li>
+            <li><a href="#setup-header">Setup Header</a></li>
+            <li><a href="#home-page">Setup Home Page</a></li>
+            <li><a href="#menu">Setup Menu</a></li>
+            <li><a href="#sidebar">Setup Sidebar</a></li>
+            <li><a href="#cat">Setup Categories</a></li>
+            <li><a href="#add-post">Adding New Post</a></li>
+            <li><a href="#add-page">Adding New Page</a></li>
+            <li><a href="#site-authors">Site Authors</a></li>
+            <li><a href="#customization">Customization</a></li>
+            <li><a href="#translate">Translation</a></li>
+            <li><a href="#update">Updating Theme</a></li>
+		</ol>
+	</aside><!-- aside -->
+
+	<section id="intro">
+        <div class="thankyou">
+            Thank you for purchasing LOOK!
+        </div>
+		<h1>LOOK</h1>
+		<h2>Documentation & Usage</h2>
+		<p>
+			<ul class="tech">
+				<li>Version: 1.0</li>
+				<li>Created by: <a href="https://themeforest.net/user/theme-ruby" target="_blank">ThemeRuby</a></li>
+				<li>Demo URL: <a href="http://demo.themeruby.com/look" target="_blank">http://demo.themeruby.com/look</a></li>
+				<li>Online Documentation URL: <a href="http://docs.themeruby.com/look" target="_blank">http://docs.themeruby.com/look</a></li>
+			</ul>
+		</p>
+	</section><!-- section -->
+
+
+	<section id="start">
+		<h2>01. Getting Started</h2>
+        <div class="block">
+            <h3>Thank You!</h3>
+            <p>First of all a huge <strong>THANK YOU</strong> for purchasing our WordPress Theme at ThemeForest. If you have any questions that are beyond the scope of this help file, please contact me via support tab of the item at Themeforest. You can also follow me on Themeforest to keep track of all theme updates and future themes.</p>
+        </div>
+        <div class="block">
+            <h3>Theme Requirements</h3>
+            <p>In order to proceed with the theme installation, you need to make sure you have the latest version of WordPress (3.5+) on your self-hosted site.</p>
+            <p>If you are new to WordPress, I would recommend learning a little bit about it before you get started. Below is helpful Resources to get you started with WordPress:</p>
+            <ul>
+                <li><a href="http://websitesetup.org/">http://websitesetup.org/</a></li>
+                <li><a href="https://www.wp101.com/">https://www.wp101.com/</a></li>
+            </ul>
+        </div>
+	</section><!-- section -->
+
+    <section id="install-theme">
+        <h2>02. Install Theme</h2>
+
+        <div class="block">
+            <h3>Theme Installation via WordPress</h3>
+            <p>In order to install this Theme into WordPress, you should directly upload the look.zip file via the WordPress Theme Uploader.</p>
+            <ol>
+                <li>Unzip download file then find look.zip file. Please skip this step if you download only theme package.</li>
+                <li>Log into your admin panel and browse for <strong>Appearance &rarr; Themes.</strong></li>
+                <li>Click <strong>Add New</strong></li>
+                <li>Click the <strong>Upload Theme</strong></li>
+                <li>Follow the instructions by choosing the file "look.zip", located in the archive which you have downloaded from ThemeForest and click <strong>Install Now</strong> button.</li>
+                <li>Click <strong>Activate</strong>, once the upload has finished.</li>
+                <li>Then you will see a notification message to activate the required plugins. Follow the steps to install and activate each plugin.</li>
+            </ol>
+        </div>
+
+        <div class="block">
+            <h3>Theme Installation via FTP</h3>
+            <p>A further option to install this Theme, would be to upload it via FTP manager. It really doesn't matter which of the two ways you choose, use this way when you get problem install via Wordpress.</p>
+            <ol>
+                <li>Login to your FTP account and navigate to your WordPress Installation directory.</li>
+                <li>Navigate to the folder <code>/wp-content/themes</code></li>
+                <li>Unzip theme file look.zip on your computer</li>
+                <li>Upload the "look" folder (not the .zip-file)</li>
+                <li>Now log into your WordPress backend</li>
+                <li>Navigate to <strong>Appearance > Themes</strong></li>
+                <li>Find the Theme and click <strong>Activate</strong></li>
+            </ol>
+        </div>
+
+        <div class="block">
+            <h3>Plugins I would recommend:</h3>
+            <ul>
+            	<li><strong>Redux Framework</strong> - This is an important plugin for the theme, that is theme options of theme and you must install it before doing anything with the theme.</li>
+            	<li><strong>Ruby Import</strong> -  If you want to get one click to import all demos, you must install and active it, You can also disable it after you finish the import.</li>
+                <li><strong>Envato Market</strong> - This plugin will let you know when our theme is updated. Install the plugin and enter your Envato Marketplace username &amp; and your API key.</li>
+            </ul>
+            <div class="msg">
+                We recommend you to install these plugins to get more from the theme.
+            </div>
+            <div class="note">
+                <strong>Other plugins we recommend to you to install:</strong>
+                <p><a href="https://wordpress.org/plugins/tiled-gallery-carousel-without-jetpack/">Tiled Galleries Carousel Without Jetpack</a> -  Display gird gallery in single post</p>
+                <p><a href="http://wordpress.org/extend/plugins/contact-form-7/" target="_blank">Contact Form 7</a> - Contact Form 7 can manage multiple contact forms, plus you can customize the form and the mail contents flexibly with simple markup</p>
+                <p><a href="https://wordpress.org/plugins/mailchimp-for-wp/" target="_blank">MailChimp for WordPress</a> - MailChimp for WordPress, the absolute best. Add subscribers to your MailChimp lists from your WordPress site, with ease.</p>
+                <p><a href="https://wordpress.org/plugins/regenerate-thumbnails/" target="_blank">Regenerate Thumbnails</a> - Usefull if your site already have a lot of content and images. Allows you to delete all old images size and regenerate the thumbnails for your image attachments.</p>
+                <p><a href="https://wordpress.org/plugins/widget-importer-exporter/" target="_blank">Widget Importer & Exporter</a> - MailChimp for WordPress, the absolute best. Add subscribers to your MailChimp lists from your WordPress site, with ease.</p>
+                <div class="msg">You can disable and remove "Regenerate Thumbnails" and "Widget Importer & Exporter" after finishing to setup the theme.</div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="import-demo">
+        <h2>03. Import Demo</h2>
+        <div class="block">
+            <div class="msg">
+                <p>I strongly recommended to run Demo Import only on a fresh WordPress site. Try import theme options and widgets if you site already data.</p>
+                <p>Some copyrighted images won't be imported.</p>
+            </div>
+        </div>
+
+        <div class="block">
+            <h3>One Click To Import Demo (optional)</h3>
+            <p>With the Look theme, you have the option to either start building your site from scratch, or choosing to import one of our demo sites to use as a starting point, and modifying it to suit your needs.</p>
+            <p>Look comes with a one-click import feature. To import one of demo sites, please follow these steps:</p>
+            <ol>
+                <li>Log into your admin panel</li>
+                <li>Navigate to <strong>Look (Theme Options) -> Demo Importer</strong></li>
+                <li>Select what demo you wish, Then click on <strong>Import</strong></li>
+            </ol>
+            <div class="msg">
+                Please be patient and do not navigate away from this page while the import is in the process. This may take up to several minutes ( according to your server speed). This page will refresh when the import is completed.<br/>
+                If the process is still not running after 5 min, You can refresh the page and click import again.
+            </div>
+        </div>
+
+        <div class="block">
+            <h3>Import Demo Via XML file (optional)</h3>
+            <h4>1. Import data</h4>
+            <p>The theme comes with a .xml file containing demo content you can import into your WordPress site. This will help you get started, in case you are running on a fresh WP installation with no content at all. To upload the demo content follow this steps:
+            <ol>
+                <li>Navigate to <strong>Tools &rarr; Import.</strong></li>
+                <li>Click on <strong>Wordpress</strong> link (if the Importer plugin is not installed, install it now).</li>
+                <li>Select the demo.xml file located in the archive which you have downloaded from ThemeForest and click <strong>Upload file and import</strong> button. This process may take a few min</li>
+                <li>After finish, Navigate to <strong>Appearance -> Menus -> Menu locations</strong>  then assign Menu for menu and then click <strong>Save</strong>.</li>
+                <li>You are done! Now your site is populated with demo content.</li>
+            </ol>
+            </p>
+            <h4>1. Import Theme Options</h4>
+            <ol>
+                <li>Select the theme-option.txt file located in the archive which you have downloaded from ThemeForest. Open this file with TXT editor, select all text and then copy it.</li>
+                <li>Navigate to <strong>Look(Theme options) &rarr; Imported/Exported</strong>. Click Imported from the file. and then paste texts you have just copied. And then, click <strong>Import (2 times)</strong>.</li>
+            </ol>
+            <h4>3. Import Widget</h4>
+            <li>Install and active plugin: <a href="https://wordpress.org/plugins/widget-importer-exporter/">Widget Importer & Exporter</a></li>
+            <li>Navigate to <strong>Tools &rarr; Widget Importer & Exporter.</strong></li>
+            <li>Click on <strong>Import</strong> link.</li>
+            <li>Select the widgets.wie file located in the archive which you have downloaded from ThemeForest and click "Upload file" button.</li>
+            <div class="msg">Don't forget install "Widget Importer & Exporter" before import widgets</div>
+        </div>
+
+        <div class="block">
+            <h3>Migrating From Another Theme</h3>
+            <p>If you are migration from a theme which used the native featured images functionality of WordPress, please use
+                the <a href="http://wordpress.org/extend/plugins/regenerate-thumbnails/">Regenerate Thumbnails</a> plugin to
+                resize all the thumbnails. Click the link above and download the free plugin, and read through the steps it
+                contains, it has all the information you need.</p>
+        </div>
+    </section>
+
+    <section id="theme-options">
+        <h2>04. Theme Options</h2>
+        <div class="block">
+            <ul>
+                <li> <p>If you want to change the general Options of the Theme, navigate to your  <strong>Admin Pannel -> Look</strong>. Here you have a tabbed Navigation where you can change a lot of Options of your new Theme (General, Styling, Typography etc.)</p></li>
+                <li><p>With Theme Options you easily take control over your site, by allowing you to upload your logo and favicon, style the appearance of the theme with your custom colors, change fonts, turn features on and off, paste custom CSS and JS code, paste the Analytcs code without having to write any code.</p></li>
+            </ul>
+            <div class="msg"> Before adjusting the first setting, you should first click on the <strong>Save Options</strong> button, to insert all default data to the database and make sure everything looks good. </div>
+        </div>
+    </section><!-- section -->
+
+    <section id="setup-header">
+        <h2>05. Setting Up Header</h2>
+        <div class="block">
+            <h3>Header Options</h3>
+            <ul>
+                <li>One of the first things you might want to do after you have installed and activated your Look theme is to set up your header area. The header contains the logo, menu, search bar, side area bar, and social icon.</li>
+                <li>To set up your header, go to <strong>Look  &rarr; Header Options</strong> from the admin panel. The settings you define here will be the default settings for header site.</li>
+            </ul>
+        </div>
+
+        <div class="block">
+            <h3>Header Style</h3>
+            <p>To choose header style for the site, Please navigate to <strong>Look -> Header Options -> Header Style</strong></p>
+        </div>
+
+        <div class="block">
+            <h3>Logo</h3>
+            <p>To add your logo to the header, Please follow below steps: </p>
+            <ul>
+                <li>navigate to <strong>Look -> Header Options</strong> from the admin panel</li>
+                <li>Then select tab <strong>Header Style Options -> Site Logo</strong> (Matching with header style you have chosen), Then lick on <strong>Upload</strong> to upload your logo</li>
+            </ul>
+            <div class="msg">To make your logos retina ready, upload to ones that are twice as high as the default logo. For example, a logo of 100 pixels in height would require a retina logo that's 200 pixels high. This principle applies to all logos you upload.</div>
+        </div>
+
+        <div class="block">
+            <h3>Off Canvas</h3>
+            <p>To setup Off Canvas for your Look theme, Please navigate to <strong>Look -> Header Options -> Off Canvas Options</strong></p>
+        </div>
+
+    </section><!-- section -->
+
+    <section id="home-page">
+        <h2>06. Setting Up Home Page</h2>
+
+          <div class="block">
+            <h3>Use the Pagebuilder to setup HomePage (For News, Magazine Website)</h3>       
+            <strong>Step 1: Prepare the page:</strong>
+            <ol>
+                <li>Navigate to: <strong>Pages > Add New</strong></li>
+                <li>Enter the title for this page: Homepage or Home or whatever you wish.</li>
+                <li>At the right side of your screen find the "Page Attributes" box and select <strong>"Page Composer"</strong> in the "Template" dropdown</li>
+            </ol>
+            <strong>Step 2: Setup page layout:</strong>
+            <p>After selecting the "Page Composer" template you see the Page Composer interface which easily lets you create the homepage layout. To get started please click on sections you want to create.</p>
+            <ol>
+                <li><strong>Full Width Section</strong> - Display content without sidebar.</li>
+                <li><strong>Has Sidebar Section</strong> - Display content with sidebar.</li>
+                <li>After selecting the section. You will see all the available blocks in this section you can add to your homepage.</li>
+            </ol>
+             <strong>Step 3: The the page as HomePage:</strong>   
+             <ol>
+                 <li>Navigate to: <strong>Dashboard > Settings > Reading</strong></li>
+                 <li>At the <strong>"Front Page Displays"</strong> option select <strong>"A static page"</strong></li>
+                 <li>At the "Front page:" dropdown, Please select your "Homepage" page.</li>
+                 <li>You are done! Now you have your Homepage.</li>   
+             </ol>
+             <p><img src="assets/homepage.png" alt="homepage setup"></p>
+          </div>
+
+        <div class="block">
+            <h3>Setup HomePage as the latest blog listing (For Blog Wesbite)</h3>
+            <p>To set up Homepage, Please following below steps:</p>
+            <ul>
+                <li>Navigate to <strong>Settings -> Reading</strong></li>
+                <li>At <strong>Front page displays</strong> option, select <strong>Your latest posts</strong></li>
+            </ul>
+            <strong>Blog Page Options:</strong>
+            <p>Look includes many of the features and layouts I have implemented into it to help you create a standout blog. To setup up home page layout, Please navigate to <strong>Look -> Home Options</strong></p>
+        </div>
+      
+    </section>
+
+    <section id="menu">
+        <h2>07. Setting Up Menu & Mega Menu</h2>
+        <div class="block">
+            <h3>Setting Up Basic Menu</h3>
+            <p>To start creating your menu, navigate to <strong>Appearance -> Menus</strong> from the admin panel.</p>
+            <p>I will now explain each section of the Menus Page</p>
+            <ol>
+                <li>Edit Menus - At the upper left corner you'll see 2 tabs: Edit Menus and Manage Locations.</li>
+                <li>Manage Locations - In Manage Locations, you can assign menus to Primary locations.</li>
+                <li>Menu Name - The name for your Menu.</li>
+            </ol>
+        </div>
+        <div class="block">
+            <h3>Setting Up Mega Column and Mega Category</h3>
+                <p>to setup meta menu please navigate below steps:</p>
+                <ol>
+                    <li>Navigate to Appearance > Menu</li>
+                    <li>Add category menu type if you want to enable posts on menu, then check on "Mega Category Menu"</li>
+                    <li>Add custom link type if you want to create 4 columns.</li>
+                </ol>
+        </div>
+    </section>
+
+    <section id="sidebar">
+        <h2>08. Setting Up Sidebar</h2>
+        <div class="block">
+            <p>Look uses widgets to build the content of sidebar and footer.</p>
+        </div>
+        <div class="block">
+            <h3>Sidebar Layout</h3>
+            <p>To start managing sidebars, go to Navigate to <strong>Look -> Sidebar Options</strong> from the admin panel.</p>
+            <p>You can select sidebar position, sticky sidebar and create a new sidebar in here</p>
+        </div>
+
+        <div class="block">
+            <h3>Add Widgets To Sidebar</h3>
+            <p>To start managing widgets and widget areas, Navigate to <strong>Appearance -> Widgets</strong>  from the admin panel.</p>
+            <p>Given below are various widget areas that Look provides by default</p>
+            <ol>
+                <li><strong>Default Sidebar: </strong>This is the WordPress default widget area that appears on posts and pages, which has its own widgets.</li>
+                <li><strong>Off Canvas Section: </strong>This is widget area that appears on off canvas menu.</li>
+                 <li><strong>Home Page First Column , Home Page Second Column, Home Page There Column: </strong> This is widget area at top of home page. You can drag and drop Banner box widget into it</li>
+                <li><strong>Full Width Top Footer: </strong>This is widget area use for display instargam gird images, social counter or custom html widget at top of footer</li>
+                <li><strong>Footer 1, Footer 2, Footer 3, Footer 4: </strong> This is widget area use for display footer column.</li>
+            </ol>
+            <p>Now you can drag and drop widgets into those sections to add content into sidebar</p>
+        </div>
+
+        <div class="block">
+            <h3>Multi sidebar</h3>
+            <p>The Theme also support mutil sidebar. to create new sidebar:</p>
+            <ol>
+                <li>go to <strong>Look -&gt; Sidebar</strong> </li>
+                <li>At <strong>Custom Multi sidebar</strong> click on <strong>Create Sidebar</strong> then input your sidebar name. Then click <strong>save change</strong></li>
+            </ol>
+        </div>
+
+        <div class="block">
+            <h3>Widgets</h3>
+            <p>Each widget has prefix  same place name where you can put it. You can refer description of each widget to know more about it.</p>
+            <div class="msg">Please don't drag and drop [SIDEBAR] widget into top footer section.</div>
+        </div>
+
+
+        <div class="block">
+            <h3>MailChimp for WordPress</h3>
+            <p>The theme support layout for MailChimp for WordPress plugin.</p>
+            <p>To setup form for sidebar header and footer look like exactly demo. Please use below code</p>
+            <p>Navigate to <strong>MailChimp for WP -> Form</strong></p>
+            <strong>For sidebar Section:</strong>
+            <pre>
+&lt;p&gt;<br />
+&lt;label&gt;Subscribe To My Newsletters&lt;/label&gt;<br />
+&lt;input type="email" name="EMAIL" placeholder="Enter Your email" required /&gt;<br />
+&lt;/p&gt;<br />
+&lt;p&gt;&lt;input type="submit" value="Subscribe" /&gt;&lt;/p&gt;
+            </pre>
+        </div>
+    </section>
+
+    <section id="cat">
+        <h2>09. Setting Up Categories</h2>
+
+        <div class="block">
+            <h3>Creating category</h3>
+            <p>To start managing categories, You must create category first</p>
+            <p>Please navigate to <strong>Posts &rarr; Categories</strong>. First do all the usual stuff: type the <strong>category name</strong> and <strong>slug</strong></p>
+        </div>
+
+        <div class="block">
+            <h3>Setting Up Category</h3>
+            <p>To get started, Please navigate to <strong>Look &rarr; Categories Options</strong> then select options you want to change, those settings will affect to all categories</p>
+            <p>Below is list some options of category page options</p>
+            <ul>
+                <li><strong>Category Layout</strong> - Select the layout for all category.</li>
+                <li><strong>1st Classic Post</strong> - Enable classic post layout at the 1st post.</li>
+                <li><strong>Header Background</strong> - Background image for all categories.</li>
+                <li><strong>Sidebar Position</strong> - Select sidebar position for all category. This option will override default sidebar position setting.</li>
+            </ul>
+            <h3>Setting for each category</h3>
+            <p>to setup for each category, Please following below the below steps:</p>
+            <ul>
+                <li>Navigate to <strong>Posts > Categories</strong> then select a category you want to change, then click on <strong>"edit"</strong></li>
+                <li>At the bottom of the page, You can see the "LOOK CATEGORY OPTIONS"</li>
+                <li>Below is list of options of category options</li>
+                <ul>
+                    <li><strong>Category Layout</strong> - Select the layout for this category.</li>
+                    <li><strong>Category Color Picker</strong> -  Select the color for this category bar info</li>
+                    <li><strong>Category Background Image URL</strong> - select the image URL for this category ie: http://look.npthemes.com/wp-content/uploads/2016/08/1.jpg</li>
+                </ul>
+            </ul>
+        </div>
+
+    </section><!-- section -->
+
+    <section id="add-post">
+        <h2>10. Adding New Post</h2>
+
+        <div class="block">
+            <h3>Creating new post</h3>
+            <p>To create a new post, Please navigate to <strong>Posts &rarr; Add New.</strong></p>
+        </div>
+
+        <div class="block">
+            <h3>Post Formats</h3>
+            <p>Look support four WordPress native post formats. Each format has it's own custom fields (except Standard) for simple content making.</p>
+            <ul>
+                <li><strong>Standard</strong> - uses only the default fields.</li>
+                <li><strong>Video</strong> - when you select this format a custom "Video Post" field will apper below the editor. Paste here the URL of the page with the video you want to add. Most of the video hosting sites are supported such as Vimeo and YouTube.</li>
+                <li><strong>Gallery</strong> - when you select this format a custom "Gallery Post" box will apper below the editor. Adding the gallery:
+                    <ol>
+                        <li>Click the "Add Image". The images manager will appear.</li>
+                        <li>Upload images you want to be in the galley</li>
+                        <li>Hold down the Ctrl key and select the images with your mouse. Click the "Select" button at the bottom. Now your images are added to the gallery</li>
+                    </ol>
+                    <div class="msg">
+                        You can drag & drop the images to rearrange the order.
+                    </div>
+                    To remove the image from the gallery, place the mouse over the image and now you see the remove icon on the top right corner of the image. If you want to add another image click on "Add Image" button again.
+                </li>
+                <li><strong>Audio</strong> - when you select this format a custom "Audio Post" field will apper below the editor. Paste here the URL of the page with the audio track you want to add from Sound Cloud.</li>
+            </ul>
+            <div class="msg">You must select post format is gallery, audio or video Before add gallery image or URL</div>
+        </div>
+
+        <div class="block">
+            <h3>Post Options</h3>
+            <p>By using options in this box you can desire what happens in the single post and add this post to different locations of your site.</p>
+            <ul>
+                <li><strong>1. First Paragraph</strong> - You can select drop cap or style for each post.</li>
+                <li><strong>2. Post sidebar</strong> - You can assign sidebar for each post. This option will override default post sidebar in single options.</li>
+                <li><strong>3. Sidebar Position</strong> - You can select sidebar position for each post.</li>
+                <li><strong>4. Show Comment Box</strong> - You can disable comment for each post .This option will override default post sidebar in single options.</li>
+            </ul>
+        </div>
+
+    </section><!-- section -->
+
+    <section id="add-page">
+        <h2>11. Adding New Page</h2>
+
+        <div class="block">
+            <h3>Creating New Page</h3>
+            <p>To create a new page, Please navigate to <strong>Page > Add New</strong></p>
+        </div>
+    </section><!-- section -->
+
+
+    <section id="site-authors">
+        <h2>12. Site Authors</h2>
+        <div class="block">
+            <h3>Author Avatar</h3>
+            <p>To make your author avatar to appear on your site, Please register at <a href="http://gravatar.com" target="_blank">gravatar.com</a> with the same email you registered at your site.</p>
+        </div>
+        <div class="block">
+            <h3>Social Author Profiles</h3>
+            <p>We added some extra fields to the user profile page to extend the information about the authors of your site. </p>
+            <p>To add a new author and information that will be visible on the front, following below steps:</p>
+            <ol>
+                <li>Navigate to <strong>Users</strong> then select user you want to change</li>
+                <li>Contact Info: Type the website address </li>
+                <li>About the user: Fill in the Biographical Info</li>
+                <li>Social Profiles: Fill all the desired fields with the social profile username.</li>
+            </ol>
+        </div>
+    </section><!-- section -->
+
+    <section id="customization">
+        <h2>13. Customization</h2>
+
+        <div class="block">
+            <p>There are two ways to customize the theme without changing it's core files.</p>
+            <div class="msg"> It's important not to change the theme core files because every time we will update the theme, you will loose you changes.</div>
+        </div>
+
+        <div class="block">
+            <h3>Custom CSS Code Via Theme Options</h3>
+            <p>To style the theme with custom CSS, navigate to <strong>Look -> Custom Code</strong>. The text box <strong>CSS Code</strong> is where you can write your own CSS code.</p>
+        </div>
+
+        <div class="block">
+            <h3>Custom Code Via Child Theme</h3>
+            <p>Install child theme, then active it. You can now write your CSS into style.css of the child theme. You also can do more with child theme if you are a developer</p>
+        </div>
+
+    </section><!-- section -->
+
+    <section id="translate">
+        <h2>12. Translating theme</h2>
+        <div class="block">
+            <h3>Translate via 3rd party plugin</h3>
+            <p>To translate your entire website, Please follow below steps:</p>
+            <ol>
+                <li>Tell WordPress what language to use. Visit <strong>"Options > General"</strong> and select your language</li>
+                <li>Download the plugin: <a href="https://wordpress.org/plugins/loco-translate/">https://wordpress.org/plugins/loco-translate/</a></li>
+                <li>Follow the instruction steps of the plugin, create a .PO file and translate what text you wish. </li>
+            </ol>
+        </div>
+
+        <div class="block">
+            <h3>Translate via PO.file</h3>
+            <p>To translate your entire website, Please follow below steps:</p>
+            <ol>
+                <li>Tell WordPress what language to use. Visit <strong>"Options > General"</strong> and select your language</li>
+                <li>Download and install POEDIT: <a href="https://poedit.net/">https://poedit.net/</a></li>
+                <li>Connect to your site folder via FTP or Cpanel -> open your <strong>theme/languages</strong> directory</li>
+                <li>Look for the <strong>look.pot</strong> file in the theme package, downloads and open it with POEDIT.</li>
+                <li>Translate what the test you want and save it ie: pt_PT( pt_PT is an Internationalize code name, pt_PT is Portugues), You need to save the <strong>file name</strong> to fit with your language. You can find here:
+                    <a href="https://wpcentral.io/internationalization/" target="_blank">https://wpcentral.io/internationalization/</a> Two files will be generated after saving.</li>
+                <li>Upload files after translating into <strong>wp-content/themes/trenblog/languages</strong> folder</li>
+            </ol>
+        </div>
+
+    </section>
+
+    <section id="update">
+        <h2>15. Updating theme</h2>
+        <div class="block">
+            <p>This theme may be updated periodically in order to add new features and fix bugs. When a new update be available an update message will appears on your WordPress dashboard . As a customer, you can download the most current version from your ThemeForest account..</p>
+        </div>
+
+        <div class="block">
+            <h3>Updating Automatically Via Envato Market</h3>
+            <p>Envato has developed the <a href="http://envato.github.io/wp-envato-market/" target="_blank">Envato Market Plugin</a> for WordPress.
+                You can use this to receive notification of updates to themes purchased from ThemeForest
+                and to automatically update (upon clicking) directly from within your WordPress admin area.</p>
+            <ol>
+                <li>After installation, click on <strong>active</strong> this plugin.</li>
+                <li>Click the new Envato Market link in the menu and follow the instructions to configure the plugin.</li>
+            </ol>
+        </div>
+
+
+        <div class="block">
+            <h3>Updating Theme Via FTP</h3>
+            <ul>
+                <li>Download the most current version from Themeforest</li>
+                <li>Unzip the package and locate look.zip in the theme folder.</li>
+                <li>find and unzip <strong>look.zip</strong></li>
+                <li>Connect to your site via FTP</li>
+                <li>Upload the theme folder you unzipped to wp-content/themes</li>
+                <li>You should be asked to confirm overwriting of this folder and its contents. Confirm the overwrite.</li>
+            </ul>
+        </div>
+
+        <div class="block">
+            <h3>Updating Manually Via Admin Panel</h3>
+            <ul>
+                <li>Download the most current version from Themeforest</li>
+                <li>Unzip the package and locate look.zip in the theme folder.</li>
+                <li>Navigate to <strong>Appearance -> Themes</strong></li>
+                <li><strong>Active</strong> default Wordpress theme as <strong>Twenty Sixteen</strong></li>
+                <li>Click on look theme, then find <strong>Delete</strong> text, Then click on <strong>Delete</strong></li>
+                <li><a href="#install-theme">Install</a> look as a new theme then <strong>Active</strong> theme.</li>
+
+            </ul>
+        </div>
+
+    </section><!-- section -->
+
+    <div class="block copy">
+        Enjoy using LOOK. &copy; 2016 THEMERUBY.COM
+    </div>
+
+</div><!-- .main -->
+</body>
+</html>
