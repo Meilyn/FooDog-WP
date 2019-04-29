@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 *.log
 wp-config.php
-wp-config-sample.php
 wp-content/cache/
 wp-content/upgrade/
 wp-content/uploads/
@@ -13,7 +11,5 @@ wp-content/plugins/hello.php
 /readme.html
 /sitemap.xml
 /sitemap.xml.gz
-=======
 /wp-config.php
-wp-config-sample.php
->>>>>>> cf6d9b3c33e4c803758a537488c20b7b959142b4
+
