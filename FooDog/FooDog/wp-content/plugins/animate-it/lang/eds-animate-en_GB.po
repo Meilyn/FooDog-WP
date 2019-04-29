@@ -1,0 +1,200 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Animate It\n"
+"POT-Creation-Date: 2016-06-10 17:58+0530\n"
+"PO-Revision-Date: 2016-07-11 11:02+0530\n"
+"Last-Translator: Eleopard Design Studios <contact@eleopard.in>\n"
+"Language-Team: Eleopard Design Studios <contact@eleopard.in>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPathExcluded-0: lang\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: assets/helper/eds-tinymce-plugin-langs.php:12
+#: assets/helper/edsanimate-tinymce-popup.php:8
+msgid "Select your Animation Style"
+msgstr "Select your Animation Style"
+
+#: assets/helper/edsanimate-tinymce-popup.php:30
+msgid "Entry"
+msgstr "Entry"
+
+#: assets/helper/edsanimate-tinymce-popup.php:33
+msgid "Exit"
+msgstr "Exit"
+
+#: assets/helper/edsanimate-tinymce-popup.php:36
+msgid "Options"
+msgstr "Options"
+
+#: assets/helper/edsanimate-tinymce-popup.php:42
+#: assets/helper/edsanimate-tinymce-popup.php:199
+msgid "Animation"
+msgstr "Animation"
+
+#: assets/helper/edsanimate-tinymce-popup.php:46
+#: assets/helper/edsanimate-tinymce-popup.php:117
+#: assets/helper/edsanimate-tinymce-popup.php:203
+#: assets/helper/edsanimate-tinymce-popup.php:274
+msgid "None"
+msgstr "None"
+
+#: assets/helper/edsanimate-tinymce-popup.php:113
+#: assets/helper/edsanimate-tinymce-popup.php:270
+msgid "Delay (in seconds)"
+msgstr "Delay (in seconds)"
+
+#: assets/helper/edsanimate-tinymce-popup.php:130
+#: assets/helper/edsanimate-tinymce-popup.php:153
+#: assets/helper/edsanimate-tinymce-popup.php:287
+#: assets/helper/edsanimate-tinymce-popup.php:310
+#: assets/helper/edsanimate-tinymce-popup.php:364
+msgid "Custom"
+msgstr "Custom"
+
+#: assets/helper/edsanimate-tinymce-popup.php:137
+#: assets/helper/edsanimate-tinymce-popup.php:294
+msgid "Duration (in seconds)"
+msgstr "Duration (in seconds)"
+
+#: assets/helper/edsanimate-tinymce-popup.php:160
+#: assets/helper/edsanimate-tinymce-popup.php:317
+msgid "Timing"
+msgstr "Timing"
+
+#: assets/helper/edsanimate-tinymce-popup.php:356
+msgid "Animation Repeat"
+msgstr "Animation Repeat"
+
+#: assets/helper/edsanimate-tinymce-popup.php:360
+msgid "Once"
+msgstr "Once"
+
+#: assets/helper/edsanimate-tinymce-popup.php:361
+msgid "Twice"
+msgstr "Twice"
+
+#: assets/helper/edsanimate-tinymce-popup.php:362
+msgid "Thrice"
+msgstr "Thrice"
+
+#: assets/helper/edsanimate-tinymce-popup.php:363
+msgid "Infinite"
+msgstr "Infinite"
+
+#: assets/helper/edsanimate-tinymce-popup.php:371
+msgid "Keep Element Final State"
+msgstr "Keep Element Final State"
+
+#: assets/helper/edsanimate-tinymce-popup.php:374 edsanimate.php:229
+#: edsanimate.php:240 edsanimate.php:251 edsanimate.php:262
+msgid "Yes"
+msgstr "Yes"
+
+#: assets/helper/edsanimate-tinymce-popup.php:376 edsanimate.php:230
+#: edsanimate.php:241 edsanimate.php:252 edsanimate.php:263
+msgid "No"
+msgstr "No"
+
+#: assets/helper/edsanimate-tinymce-popup.php:380
+msgid "Custom CSS Class"
+msgstr "Custom CSS Class"
+
+#: assets/helper/edsanimate-tinymce-popup.php:388
+msgid "Animate On"
+msgstr "Animate On"
+
+#: assets/helper/edsanimate-tinymce-popup.php:391
+msgid "Load"
+msgstr "Load"
+
+#: assets/helper/edsanimate-tinymce-popup.php:393
+msgid "Click"
+msgstr "Click"
+
+#: assets/helper/edsanimate-tinymce-popup.php:395
+msgid "Hover"
+msgstr "Hover"
+
+#: assets/helper/edsanimate-tinymce-popup.php:397
+msgid "Scroll"
+msgstr "Scroll"
+
+#: assets/helper/edsanimate-tinymce-popup.php:402
+msgid "Scroll Offset (in %)"
+msgstr "Scroll Offset (in %)"
+
+#: assets/helper/edsanimate-tinymce-popup.php:414
+msgid "Powered by"
+msgstr "Powered by"
+
+#: assets/helper/edsanimate-tinymce-popup.php:417
+msgid "Review Plugin"
+msgstr "Review Plugin"
+
+#: assets/helper/edsanimate-tinymce-popup.php:420
+msgid "Documentation"
+msgstr "Documentation"
+
+#: assets/helper/edsanimate-tinymce-popup.php:424
+msgid "Stop Animation"
+msgstr "Stop Animation"
+
+#: assets/helper/edsanimate-tinymce-popup.php:425 edsanimate.php:101
+msgid "Animate It!"
+msgstr "Animate It!"
+
+#: assets/helper/edsanimate-tinymce-popup.php:426
+msgid "Insert"
+msgstr "Insert"
+
+#: edsanimate.php:100 edsanimate.php:167
+msgid "Animate It! Options"
+msgstr "Animate It! Options"
+
+#: edsanimate.php:194
+msgid "Options saved."
+msgstr "Options saved."
+
+#: edsanimate.php:200
+msgid "Failed to save options."
+msgstr "Failed to save options."
+
+#: edsanimate.php:216
+msgid "Scroll Offset (in percentage)"
+msgstr "Scroll Offset (in percentage)"
+
+#: edsanimate.php:225
+msgid "Enable on Smartphones"
+msgstr "Enable on Smartphones"
+
+#: edsanimate.php:236
+msgid "Enable on Tablets"
+msgstr "Enable on Tablets"
+
+#: edsanimate.php:247
+msgid "Hide Horizontal Scrollbar"
+msgstr "Hide Horizontal Scrollbar"
+
+#: edsanimate.php:258
+msgid "Hide Vertical Scrollbar"
+msgstr "Hide Vertical Scrollbar"
+
+#: edsanimate.php:269
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: edsanimate.php:277
+msgid "Submit"
+msgstr "Submit"
+
+#: edsanimate.php:486
+msgid "Animate It Classes"
+msgstr "Animate It Classes"
