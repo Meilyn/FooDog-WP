@@ -19,9 +19,14 @@ Le projet s'est réalisé sur deux semaines à partir du 22 avril 2019 (à BeCod
 - [Caterina Mennito](https://github.com/caterinamennito)
 
 ## Aperçu du site :  
-![Home Page]
-![Categories]
-![Articles] 
+  ### Home Page
+![Home Page](https://raw.githubusercontent.com/Meilyn/FooDog-WP/master/accueil.png)
+
+  ### Categories
+![Categories](https://raw.githubusercontent.com/Meilyn/FooDog-WP/master/categories.png)
+
+  ### Articles
+![Articles](https://raw.githubusercontent.com/Meilyn/FooDog-WP/master/articles.png)
 
 
 
