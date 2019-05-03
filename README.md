@@ -6,7 +6,7 @@ Notre premier projet Wordpress
 Site web pour mieux vivre avec votre chien (c'est une demo hein)
 
 
-## [Cliquez ici pour les consignes ;)](https://github.com/becodeorg/BXL-Johnson-3.9/tree/master/Projets/Foodog)
+#### [consignes](https://github.com/becodeorg/BXL-Johnson-3.9/tree/master/Projets/Foodog)
 
 ## État du projet:
 
