@@ -1,9 +1,12 @@
 # FooDog
-Notre premier projet Wordpress
 
 ## Description
 
-Site web pour mieux vivre avec votre chien (c'est une demo hein)
+Réalisation d'un blog client. Le client possède déjà un site internet pour sa société mais voulais accentuer sa présence sur internet via l'animation d'un blog. Celui-ci s'appelle FooDog. Un blog qui parle d'alimentation pour les chiens qu'il veut pouvoir mettre à jour quand il le souhaite.
+
+Le blog comporte 1 page d'accueil, 4 catégories, et une single page (le détail d'un article et ce détail a un menu hamburger comme sur l'image ci-dessous) pour les articles et une page pour le résultat des recherches.
+
+Nous avons utilisé Worpdress car c'est la technologie qui semble le plus adaptée à la demande du client.
 
 
 #### [consignes](https://github.com/becodeorg/BXL-Johnson-3.9/tree/master/Projets/Foodog)
