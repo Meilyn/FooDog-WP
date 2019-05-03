@@ -18,6 +18,23 @@ Le projet s'est réalisé sur deux semaines à partir du 22 avril 2019 (à BeCod
 - [Antoine Diambu](https://github.com/AntoineDia) 
 - [Caterina Mennito](https://github.com/caterinamennito)
 
+
+### Crédits Photos: 
+- Pixabay (x3)
+- Chevano
+- Rawpixel
+- Kasuma
+- Suzy Hazelwood
+- Char
+- Joao Jesus
+
+### Plugins Wordpress: 
+- Advanced noCaptcha & invisible Captcha
+- GDPR Cookie Consent
+- Mailchimp for WordPress
+- Yoast SEO
+- Super Progressive Web Apps
+
 ## Aperçu du site :  
   ### Home Page
 ![Home Page](https://raw.githubusercontent.com/Meilyn/FooDog-WP/master/accueil.png)
